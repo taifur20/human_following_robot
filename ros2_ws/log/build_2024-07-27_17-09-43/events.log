@@ -1,0 +1,97 @@
+[0.000000] (-) TimerEvent: {}
+[0.002645] (robot_controller) JobQueued: {'identifier': 'robot_controller', 'dependencies': OrderedDict()}
+[0.003531] (robot_controller) JobStarted: {'identifier': 'robot_controller'}
+[0.098610] (-) TimerEvent: {}
+[0.199580] (-) TimerEvent: {}
+[0.300835] (-) TimerEvent: {}
+[0.401714] (-) TimerEvent: {}
+[0.502617] (-) TimerEvent: {}
+[0.603498] (-) TimerEvent: {}
+[0.704438] (-) TimerEvent: {}
+[0.805307] (-) TimerEvent: {}
+[0.906186] (-) TimerEvent: {}
+[1.007048] (-) TimerEvent: {}
+[1.107925] (-) TimerEvent: {}
+[1.208860] (-) TimerEvent: {}
+[1.309711] (-) TimerEvent: {}
+[1.410575] (-) TimerEvent: {}
+[1.511503] (-) TimerEvent: {}
+[1.612679] (-) TimerEvent: {}
+[1.719642] (-) TimerEvent: {}
+[1.820598] (-) TimerEvent: {}
+[1.921469] (-) TimerEvent: {}
+[2.022336] (-) TimerEvent: {}
+[2.123239] (-) TimerEvent: {}
+[2.224156] (-) TimerEvent: {}
+[2.325024] (-) TimerEvent: {}
+[2.425946] (-) TimerEvent: {}
+[2.526891] (-) TimerEvent: {}
+[2.627759] (-) TimerEvent: {}
+[2.728681] (-) TimerEvent: {}
+[2.829574] (-) TimerEvent: {}
+[2.930438] (-) TimerEvent: {}
+[3.031290] (-) TimerEvent: {}
+[3.132180] (-) TimerEvent: {}
+[3.233046] (-) TimerEvent: {}
+[3.333904] (-) TimerEvent: {}
+[3.434778] (-) TimerEvent: {}
+[3.535678] (-) TimerEvent: {}
+[3.636582] (-) TimerEvent: {}
+[3.737465] (-) TimerEvent: {}
+[3.838328] (-) TimerEvent: {}
+[3.939203] (-) TimerEvent: {}
+[4.040122] (-) TimerEvent: {}
+[4.141014] (-) TimerEvent: {}
+[4.241944] (-) TimerEvent: {}
+[4.342982] (-) TimerEvent: {}
+[4.444076] (-) TimerEvent: {}
+[4.478036] (robot_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/robot_controller', 'build', '--build-base', '/home/ubuntu/person_follower/ros2_ws/build/robot_controller/build', 'install', '--record', '/home/ubuntu/person_follower/ros2_ws/build/robot_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ubuntu/person_follower/ros2_ws/src/robot_controller', 'env': {'SUDO_GID': '1000', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'MAIL': '/var/mail/root', 'USER': 'root', 'SHLVL': '1', 'HOME': '/root', 'OLDPWD': '/home/ubuntu/person_follower', 'PS1': '(pynq-venv) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\u@\\h:\\w\\$', 'XILINX_XRT': '/usr', 'PYNQ_JUPYTER_NOTEBOOKS': '/root/jupyter_notebooks', 'COLORTERM': 'truecolor', 'BOARD': 'KR260', 'SUDO_UID': '1000', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'TERM': 'xterm-256color', 'PATH': '/usr/local/share/pynq-venv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/share/pynq-venv/bin/microblazeel-xilinx-elf/bin/', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'VIRTUAL_ENV_PROMPT': '(pynq-venv)', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUDO_COMMAND': '/usr/bin/su', 'SHELL': '/bin/bash', 'SUDO_USER': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUAL_ENV': '/usr/local/share/pynq-venv', 'PWD': '/home/ubuntu/person_follower/ros2_ws/build/robot_controller', 'LC_ALL': 'en_US.UTF-8', 'COLCON': '1', 'PYTHONPATH': '/home/ubuntu/person_follower/ros2_ws/build/robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/person_follower/ros2_ws/install/robot_controller/lib/python3.10/site-packages:'}, 'shell': False}
+[4.544291] (-) TimerEvent: {}
+[4.645266] (-) TimerEvent: {}
+[4.746144] (-) TimerEvent: {}
+[4.847060] (-) TimerEvent: {}
+[4.947916] (-) TimerEvent: {}
+[5.048804] (-) TimerEvent: {}
+[5.149663] (-) TimerEvent: {}
+[5.250549] (-) TimerEvent: {}
+[5.351419] (-) TimerEvent: {}
+[5.452330] (-) TimerEvent: {}
+[5.553236] (-) TimerEvent: {}
+[5.654119] (-) TimerEvent: {}
+[5.754975] (-) TimerEvent: {}
+[5.855840] (-) TimerEvent: {}
+[5.864134] (robot_controller) StdoutLine: {'line': b'running egg_info\n'}
+[5.868060] (robot_controller) StdoutLine: {'line': b'writing ../../build/robot_controller/robot_controller.egg-info/PKG-INFO\n'}
+[5.870945] (robot_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/robot_controller/robot_controller.egg-info/dependency_links.txt\n'}
+[5.871941] (robot_controller) StdoutLine: {'line': b'writing entry points to ../../build/robot_controller/robot_controller.egg-info/entry_points.txt\n'}
+[5.872885] (robot_controller) StdoutLine: {'line': b'writing requirements to ../../build/robot_controller/robot_controller.egg-info/requires.txt\n'}
+[5.873711] (robot_controller) StdoutLine: {'line': b'writing top-level names to ../../build/robot_controller/robot_controller.egg-info/top_level.txt\n'}
+[5.884271] (robot_controller) StdoutLine: {'line': b"reading manifest file '../../build/robot_controller/robot_controller.egg-info/SOURCES.txt'\n"}
+[5.892937] (robot_controller) StdoutLine: {'line': b"writing manifest file '../../build/robot_controller/robot_controller.egg-info/SOURCES.txt'\n"}
+[5.893935] (robot_controller) StdoutLine: {'line': b'running build\n'}
+[5.894559] (robot_controller) StdoutLine: {'line': b'running build_py\n'}
+[5.911034] (robot_controller) StdoutLine: {'line': b'copying robot_controller/yolo_dpu_detector.py -> /home/ubuntu/person_follower/ros2_ws/build/robot_controller/build/lib/robot_controller\n'}
+[5.914372] (robot_controller) StdoutLine: {'line': b'copying robot_controller/publish_result_serial.py -> /home/ubuntu/person_follower/ros2_ws/build/robot_controller/build/lib/robot_controller\n'}
+[5.916639] (robot_controller) StdoutLine: {'line': b'running install\n'}
+[5.918776] (robot_controller) StdoutLine: {'line': b'running install_lib\n'}
+[5.925694] (robot_controller) StdoutLine: {'line': b'copying /home/ubuntu/person_follower/ros2_ws/build/robot_controller/build/lib/robot_controller/yolo_dpu_detector.py -> /home/ubuntu/person_follower/ros2_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller\n'}
+[5.926798] (robot_controller) StdoutLine: {'line': b'copying /home/ubuntu/person_follower/ros2_ws/build/robot_controller/build/lib/robot_controller/publish_result_serial.py -> /home/ubuntu/person_follower/ros2_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller\n'}
+[5.931415] (robot_controller) StdoutLine: {'line': b'byte-compiling /home/ubuntu/person_follower/ros2_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller/yolo_dpu_detector.py to yolo_dpu_detector.cpython-310.pyc\n'}
+[5.951603] (robot_controller) StdoutLine: {'line': b'byte-compiling /home/ubuntu/person_follower/ros2_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller/publish_result_serial.py to publish_result_serial.cpython-310.pyc\n'}
+[5.954057] (robot_controller) StdoutLine: {'line': b'running install_data\n'}
+[5.955988] (-) TimerEvent: {}
+[5.957005] (robot_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.966095] (robot_controller) StdoutLine: {'line': b"removing '/home/ubuntu/person_follower/ros2_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.967811] (robot_controller) StdoutLine: {'line': b'Copying ../../build/robot_controller/robot_controller.egg-info to /home/ubuntu/person_follower/ros2_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info\n'}
+[5.974245] (robot_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[6.056204] (-) TimerEvent: {}
+[6.102931] (robot_controller) StdoutLine: {'line': b'Installing rosai_camera_demo script to /home/ubuntu/person_follower/ros2_ws/install/robot_controller/lib/robot_controller\n'}
+[6.105570] (robot_controller) StdoutLine: {'line': b'Installing test_node script to /home/ubuntu/person_follower/ros2_ws/install/robot_controller/lib/robot_controller\n'}
+[6.106699] (robot_controller) StdoutLine: {'line': b'Installing usbcam_publisher script to /home/ubuntu/person_follower/ros2_ws/install/robot_controller/lib/robot_controller\n'}
+[6.110170] (robot_controller) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/person_follower/ros2_ws/build/robot_controller/install.log'\n"}
+[6.156477] (-) TimerEvent: {}
+[6.257511] (-) TimerEvent: {}
+[6.308883] (robot_controller) CommandEnded: {'returncode': 0}
+[6.357884] (-) TimerEvent: {}
+[6.406217] (robot_controller) JobEnded: {'identifier': 'robot_controller', 'rc': 0}
+[6.409540] (-) EventReactorShutdown: {}

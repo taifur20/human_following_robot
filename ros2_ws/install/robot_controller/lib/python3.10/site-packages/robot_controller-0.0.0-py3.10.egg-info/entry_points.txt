@@ -1,0 +1,5 @@
+[console_scripts]
+rosai_camera_demo = robot_controller.rosai_camera_demo:main
+test_node = robot_controller.camera_resize_node:main
+usbcam_publisher = robot_controller.usbcam_publisher:main
+

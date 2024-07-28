@@ -1,0 +1,29 @@
+[4.532s] Invoking command in '/home/ubuntu/person_follower/ros2_ws/src/robot_controller': PS1=(pynq-venv) ${debian_chroot:+($debian_chroot)}\u@\h:\w\$ PYTHONPATH=/home/ubuntu/person_follower/ros2_ws/build/robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/person_follower/ros2_ws/install/robot_controller/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(pynq-venv) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_controller build --build-base /home/ubuntu/person_follower/ros2_ws/build/robot_controller/build install --record /home/ubuntu/person_follower/ros2_ws/build/robot_controller/install.log --single-version-externally-managed install_data
+[6.245s] running egg_info
+[6.250s] writing ../../build/robot_controller/robot_controller.egg-info/PKG-INFO
+[6.252s] writing dependency_links to ../../build/robot_controller/robot_controller.egg-info/dependency_links.txt
+[6.252s] writing entry points to ../../build/robot_controller/robot_controller.egg-info/entry_points.txt
+[6.253s] writing requirements to ../../build/robot_controller/robot_controller.egg-info/requires.txt
+[6.256s] writing top-level names to ../../build/robot_controller/robot_controller.egg-info/top_level.txt
+[6.268s] reading manifest file '../../build/robot_controller/robot_controller.egg-info/SOURCES.txt'
+[6.275s] writing manifest file '../../build/robot_controller/robot_controller.egg-info/SOURCES.txt'
+[6.275s] running build
+[6.276s] running build_py
+[6.277s] copying robot_controller/yolo_dpu_detector.py -> /home/ubuntu/person_follower/ros2_ws/build/robot_controller/build/lib/robot_controller
+[6.279s] copying robot_controller/cam_resizer_publisher.py -> /home/ubuntu/person_follower/ros2_ws/build/robot_controller/build/lib/robot_controller
+[6.281s] running install
+[6.283s] running install_lib
+[6.288s] copying /home/ubuntu/person_follower/ros2_ws/build/robot_controller/build/lib/robot_controller/yolo_dpu_detector.py -> /home/ubuntu/person_follower/ros2_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller
+[6.289s] copying /home/ubuntu/person_follower/ros2_ws/build/robot_controller/build/lib/robot_controller/cam_resizer_publisher.py -> /home/ubuntu/person_follower/ros2_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller
+[6.294s] byte-compiling /home/ubuntu/person_follower/ros2_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller/yolo_dpu_detector.py to yolo_dpu_detector.cpython-310.pyc
+[6.315s] byte-compiling /home/ubuntu/person_follower/ros2_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller/cam_resizer_publisher.py to cam_resizer_publisher.cpython-310.pyc
+[6.320s] running install_data
+[6.320s] running install_egg_info
+[6.332s] removing '/home/ubuntu/person_follower/ros2_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[6.333s] Copying ../../build/robot_controller/robot_controller.egg-info to /home/ubuntu/person_follower/ros2_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info
+[6.339s] running install_scripts
+[6.470s] Installing rosai_camera_demo script to /home/ubuntu/person_follower/ros2_ws/install/robot_controller/lib/robot_controller
+[6.471s] Installing test_node script to /home/ubuntu/person_follower/ros2_ws/install/robot_controller/lib/robot_controller
+[6.472s] Installing usbcam_publisher script to /home/ubuntu/person_follower/ros2_ws/install/robot_controller/lib/robot_controller
+[6.475s] writing list of installed files to '/home/ubuntu/person_follower/ros2_ws/build/robot_controller/install.log'
+[6.683s] Invoked command in '/home/ubuntu/person_follower/ros2_ws/src/robot_controller' returned '0': PS1=(pynq-venv) ${debian_chroot:+($debian_chroot)}\u@\h:\w\$ PYTHONPATH=/home/ubuntu/person_follower/ros2_ws/build/robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/person_follower/ros2_ws/install/robot_controller/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(pynq-venv) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_controller build --build-base /home/ubuntu/person_follower/ros2_ws/build/robot_controller/build install --record /home/ubuntu/person_follower/ros2_ws/build/robot_controller/install.log --single-version-externally-managed install_data

@@ -1,0 +1,24 @@
+[4.535s] Invoking command in '/home/ubuntu/person_follower/ros2_ws/src/robot_controller': PS1=(pynq-venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$ PYTHONPATH=/home/ubuntu/person_follower/ros2_ws/build/robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/person_follower/ros2_ws/install/robot_controller/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(pynq-venv) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_controller build --build-base /home/ubuntu/person_follower/ros2_ws/build/robot_controller/build install --record /home/ubuntu/person_follower/ros2_ws/build/robot_controller/install.log --single-version-externally-managed install_data
+[6.321s] running egg_info
+[6.326s] writing ../../build/robot_controller/robot_controller.egg-info/PKG-INFO
+[6.328s] writing dependency_links to ../../build/robot_controller/robot_controller.egg-info/dependency_links.txt
+[6.329s] writing entry points to ../../build/robot_controller/robot_controller.egg-info/entry_points.txt
+[6.330s] writing requirements to ../../build/robot_controller/robot_controller.egg-info/requires.txt
+[6.331s] writing top-level names to ../../build/robot_controller/robot_controller.egg-info/top_level.txt
+[6.343s] reading manifest file '../../build/robot_controller/robot_controller.egg-info/SOURCES.txt'
+[6.349s] writing manifest file '../../build/robot_controller/robot_controller.egg-info/SOURCES.txt'
+[6.350s] running build
+[6.351s] running build_py
+[6.352s] copying robot_controller/camera_resize_node.py -> /home/ubuntu/person_follower/ros2_ws/build/robot_controller/build/lib/robot_controller
+[6.353s] running install
+[6.355s] running install_lib
+[6.359s] copying /home/ubuntu/person_follower/ros2_ws/build/robot_controller/build/lib/robot_controller/camera_resize_node.py -> /home/ubuntu/person_follower/ros2_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller
+[6.363s] byte-compiling /home/ubuntu/person_follower/ros2_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller/camera_resize_node.py to camera_resize_node.cpython-310.pyc
+[6.365s] running install_data
+[6.365s] running install_egg_info
+[6.376s] removing '/home/ubuntu/person_follower/ros2_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[6.377s] Copying ../../build/robot_controller/robot_controller.egg-info to /home/ubuntu/person_follower/ros2_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info
+[6.382s] running install_scripts
+[6.517s] Installing test_node script to /home/ubuntu/person_follower/ros2_ws/install/robot_controller/lib/robot_controller
+[6.520s] writing list of installed files to '/home/ubuntu/person_follower/ros2_ws/build/robot_controller/install.log'
+[6.737s] Invoked command in '/home/ubuntu/person_follower/ros2_ws/src/robot_controller' returned '0': PS1=(pynq-venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$ PYTHONPATH=/home/ubuntu/person_follower/ros2_ws/build/robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/person_follower/ros2_ws/install/robot_controller/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(pynq-venv) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_controller build --build-base /home/ubuntu/person_follower/ros2_ws/build/robot_controller/build install --record /home/ubuntu/person_follower/ros2_ws/build/robot_controller/install.log --single-version-externally-managed install_data
